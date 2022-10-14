@@ -1,0 +1,195 @@
+* {
+    box-sizing : border-box;
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body{
+font-family: sans-serif;
+}
+
+.card-title{
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+
+}
+
+.card-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.email-form-title{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 3.2rem;
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+.footer-top{
+    margin-bottom: 30px;
+}
+.footer-links{
+   list-style-type: none; 
+   columns: 4;
+   padding: 0px;
+}
+.footer{
+    background-color: black;
+}
+.footer ul li, .questions-title{
+    color: #757575;
+}
+.footer-links li{
+    font-size: 13px;
+    line-height: 2;
+}
+.footer ul li:hover, .questions-title{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a{
+    color: white;
+}
+.banner-wrap{
+    background-image: url(/assets/FRhe-bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 10px solid #222222 ;
+    position: relative;
+    z-index: 1;
+    background-color: black;
+}
+
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+}
+.navbar {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0px 45px;
+    padding-top: 45px;
+}
+.navbar > img {
+    height: 32px;
+}
+.navbar > a{
+   padding: 7px 17px;
+   background: red;
+   text-decoration: none;
+   border-radius: 3px;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 45px);
+    text-align: center;   
+}
+.get-started-form{
+    height: 50px;
+    display: flex;
+    
+
+}
+.get-started-form input{
+   height: 100%; 
+   width: 450px;
+   padding-left: 10px;
+}
+.get-started-form button{
+    background-color: red;
+    color: white;
+    height: 100%;
+    font-size: 1.625rem;
+    border: none;
+    padding: 0 26px;
+    border-left: 1px solid;
+}
+.info-container{
+display: flex;
+padding: 70px 45px;
+border-bottom: 8px solid #222222 ;
+background-color: black;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tv-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv-container img{
+    z-index: 1;
+}
+.tv-container video{
+    position: absolute;
+}
+.footer-items{
+    margin: 0 47.5px;
+    padding: 70px 45px;
+    color: #757575;
+}
+.question-title:hover{
+    cursor: pointer;
+
+}
+.language{
+    height: 53px;
+    width: 142px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #757575;
+    padding: 0 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.language select{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    appearance: none;
+    background: black;
+    color: #757575;
+    background: url(./assets/Pgk8-carot.png)100%;
+    background-repeat: no-repeat;
+}
+.footer-country{
+    font-size: 13px;
+    margin-top: 24px;
+    color: #757575;
+}
